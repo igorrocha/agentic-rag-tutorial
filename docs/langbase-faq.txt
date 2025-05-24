@@ -1,0 +1,52 @@
+How to reset password?
+Step 1: Access Profile Settings
+	1.	Log in to your Langbase account.
+	2.	Navigate to the [Profile Settings page](https://langbase.com/settings/profile)
+Step 2: Change Your Password
+	1.	Scroll to the Reset Password section.
+	2.	Enter your new password in the New Password box.
+	3.	Click Set Password to confirm the change.
+
+How to edit user profile?
+Step 1: Access Profile Settings
+	1.	Log in to your Langbase account.
+	2.	Navigate to the Profile Settings page.
+
+Step 2: Edit Your Profile
+	1.	Click on Change Profile Picture to upload an image from your computer.
+		•	Note: The image should be in PNG or JPG format and must not exceed 1MB in size.
+	2.	Enter a name for your profile in the Name field.
+	3.	Create a username for your profile using a hyphen-separated format in the Username field.
+	4.	Write a short bio in the Bio field.
+
+Step 3: Save Your Changes
+	1.	Click Save Changes to apply your edits.
+
+How to upgrade organization plan?
+
+Step 1: Access the Organization Billing Page
+	1.	Log in to your Langbase account.
+	2.	Navigate to your Organization Profile page.
+	3.	Click the Billing button in the top-right corner.
+
+Step 2: Review Current Billing Status
+	1.	In the Subscription section, view your current plan, term, and status details.
+	2.	The Usage section summarizes your organization’s activity, including the total number of pipes, requests, and memory usage.
+
+Step 3: Upgrade to Pro or Enterprise
+	1.	Go to the Plans section to compare and explore available subscription options.
+	2.	Click Subscribe or Let’s Talk and follow the prompts to complete the upgrade.
+
+How to upgrade individual plan?
+
+Step 1: Access Your Billing Page
+	1.	Log in to your Langbase account.
+	2.	Navigate to your Profile Billing Page.
+
+Step 2: Review Current Billing Status
+	1.	In the Subscription section, view your current plan, term, and status details.
+	2.	The Usage section summarizes your activity, including total pipes, requests, and memory usage.
+
+Step 3: Upgrade to Pro or Enterprise
+	1.	Go to the Plans section to compare and explore available subscription options.
+	2.	Click Subscribe or Let’s Talk and follow the prompts to complete the upgrade.

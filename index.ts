@@ -1,8 +1,15 @@
-import { runMemoryAgent } from './agents';
+import { runMemoryAgent, runAiSupportAgent } from './agents';
 
 async function main() {
-    const chunks = await runMemoryAgent('What is agent parallelization?');
-    console.log('Memory chunk:', chunks);
+    const query = 'What is agent parallelization?';
+    const chunks = await runMemoryAgent(query);
+
+    const completion = await runAiSupportAgent({
+        chunks,
+        query,
+    });
+
+    console.log('Completion:', completion);
 }
 
 main();

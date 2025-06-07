@@ -1,7 +1,7 @@
 import { runMemoryAgent, runAiSupportAgent } from './agents';
 
 async function main() {
-    const query = 'What is agent parallelization?';
+    const query = 'Qual é a diferença entre CRPID e CRID?';
     const chunks = await runMemoryAgent(query);
 
     const completion = await runAiSupportAgent({
@@ -9,6 +9,7 @@ async function main() {
         query,
     });
 
+    console.log('Query:', query);
     console.log('Completion:', completion);
 }
 

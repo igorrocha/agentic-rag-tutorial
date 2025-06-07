@@ -7,7 +7,7 @@ const langbase = new Langbase({
 
 async function main() {
   const memory = await langbase.memories.create({
-    name: "knowledge-base",
+    name: "poli-ufrj",
     description: "An AI memory for agentic memory workshop",
     embedding_model: "openai:text-embedding-3-large",
   })

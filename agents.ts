@@ -61,7 +61,7 @@ export async function runMemoryAgent(query: string) {
     topK: 4,
     memory: [
       {
-        name: "knowledge-base",
+        name: "poli-ufrj",
       },
     ],
   })

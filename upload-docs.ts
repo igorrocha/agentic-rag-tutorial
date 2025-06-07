@@ -9,7 +9,7 @@ const langbase = new Langbase({
 
 async function main() {
   const cwd = process.cwd()
-  const memoryName = "knowledge-base"
+  const memoryName = "poli-ufrj"
 
   // Upload agent architecture document
   const agentArchitecture = await readFile(

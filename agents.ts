@@ -8,28 +8,34 @@ const langbase = new Langbase({
 export async function runAiSupportAgent({
   chunks,
   query,
+  threadId,
 }: {
   chunks: MemoryRetrieveResponse[]
   query: string
+  threadId?: string
 }) {
   const systemPrompt = await getSystemPrompt(chunks)
 
-  const { completion } = await langbase.pipes.run({
+  const response = await langbase.pipes.run({
     stream: false,
     name: "ai-support-agent",
+    threadId,
     messages: [
       {
-        role: "system",
+        role: "system" as const,
         content: systemPrompt,
       },
       {
-        role: "user",
+        role: "user" as const,
         content: query,
       },
     ],
   })
 
-  return completion
+  return {
+    completion: response.completion,
+    threadId: response.threadId
+  }
 }
 
 async function getSystemPrompt(chunks: MemoryRetrieveResponse[]) {

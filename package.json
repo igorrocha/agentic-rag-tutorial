@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "npx tsx index.ts",
+    "chat": "npx tsx index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +14,9 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "langbase": "^1.1.60"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "tsx": "^4.20.3"
   }
 }
